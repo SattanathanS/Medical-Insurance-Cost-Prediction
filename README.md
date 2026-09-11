@@ -1,14 +1,14 @@
-**Medical Insurance Cost Prediction using Random Forest Regressor**
+Medical Insurance Cost Prediction using Random Forest Regressor
 
-**Project Overview**
+Project Overview
 
-  Healthcare insurance costs vary significantly based on factors such as age, BMI, smoking habits, region, and number of dependents. This project leverages Machine Learning to predict an individual's medical insurance charges using a Random Forest Regressor model.
+This project predicts medical insurance charges using a Random Forest Regressor. The model uses demographic and health-related attributes such as age, BMI, smoking status, region, gender, and number of dependents to estimate expected insurance costs.
   
-  The objective is to help insurance providers, healthcare analysts, and customers estimate likely insurance expenses and understand the factors influencing healthcare costs.
+The goal is to support insurance providers, healthcare analysts, and customers by delivering a data-driven estimate of medical expenses and highlighting the factors that most influence cost variation.
 
-**Business Problem**
+Business Problem
 
-  Insurance companies need accurate cost estimates to:
+Insurance companies need reliable cost prediction models to improve pricing strategies, assess customer risk profiles, reduce manual underwriting effort, and provide more personalized premium estimates.
   
   Improve pricing strategies
   Assess customer risk profiles
@@ -87,41 +87,31 @@
 
 7.Results
 
-    The Random Forest Regressor demonstrated strong predictive performance by accurately estimating insurance expenses from customer demographic and health-related factors.
+  The Random Forest Regressor demonstrated strong predictive performance by accurately estimating insurance expenses from customer 
+  demographic and health-related factors.
     
-    Example metrics:
-    
-    r2_score : 0.92
-    
-    MSE: 3149705.2
-    
-    RMSE : 1774.7
-    
-    MAE : 1270.5
+  Example metrics:
+        r2_score : 0.92
+        MSE: 3149705.2
+        RMSE : 1774.7
+        MAE : 1270.5
 
 
 **Key Insights**
-    Smoking Significantly Increases Insurance Costs
     
-    Smokers incur substantially higher medical charges compared to non-smokers.
-    
-    Age Positively Correlates With Charges
-    
-    Older individuals generally have higher insurance expenses.
-    
-    BMI Influences Healthcare Costs
-    
-    Higher BMI values often contribute to increased medical costs.
-    
-    Dependents Have Moderate Impact
-    
-    The number of children affects insurance charges but less significantly than smoking status and age.
+  Smoking Significantly Increases Insurance Costs
+  Smokers incur substantially higher medical charges compared to non-smokers.
+  Age Positively Correlates With Charges
+  Older individuals generally have higher insurance expenses.
+  BMI Influences Healthcare Costs 
+  Higher BMI values often contribute to increased medical costs.
+  Dependents Have Moderate Impact
+  The number of children affects insurance charges but less significantly than smoking status and age.
 
 **Feature Importance**
 
-    Random Forest provides feature importance scores, helping identify the most influential variables.
-    Typical ranking:
-    
+  Random Forest provides feature importance scores, helping identify the most influential variables.
+   Typical ranking:
     Smoker
     Age
     BMI
@@ -131,12 +121,12 @@
 
 **Model Deployment**
 
-    After successfully training and evaluating the Random Forest Regressor model, the solution was deployed as an interactive web application, enabling users to predict medical insurance costs in real time.
+After successfully training and evaluating the Random Forest Regressor model, 
+the solution was deployed as an interactive web application, enabling users to predict medical insurance costs in real time.
 
 **Web Application Development**
 
-    A user-friendly interface was developed using Streamlit, allowing users to enter:
-    
+   A user-friendly interface was developed using Streamlit, allowing users to enter:
     Age
     Gender
     BMI
