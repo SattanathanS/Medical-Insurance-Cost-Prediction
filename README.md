@@ -1,5 +1,10 @@
 Medical Insurance Cost Prediction using Random Forest Regressor
 
+
+<img width="812" height="718" alt="Insurance Prediction" src="https://github.com/user-attachments/assets/78b464f1-a839-40f0-8cc8-785ee2dbe02c" />
+
+
+
 Project Overview
 
 This project predicts medical insurance charges using a Random Forest Regressor. The model uses demographic and health-related attributes such as age, BMI, smoking status, region, gender, and number of dependents to estimate expected insurance costs.
@@ -66,6 +71,7 @@ Insurance companies need reliable cost prediction models to improve pricing stra
     BMI vs Charges relationship
     Age vs Charges correlation
     Regional insurance cost variations
+<img width="1069" height="986" alt="image" src="https://github.com/user-attachments/assets/f8921ecd-9c52-435d-a2a9-d75d9343c45b" />
 
 4. Train-Test Split
 
@@ -84,6 +90,10 @@ Insurance companies need reliable cost prediction models to improve pricing stra
     Mean Absolute Error (MAE)
     Mean Squared Error (MSE)
     Root Mean Squared Error (RMSE
+<img width="543" height="407" alt="Corr Matrix" src="https://github.com/user-attachments/assets/90540996-4b9d-4efb-b58e-be93c1507482" />
+
+<img width="632" height="472" alt="image" src="https://github.com/user-attachments/assets/36aeb9f5-8d72-4d4b-b1b3-1771cc2ddb38" />
+
 
 7.Results
 
@@ -91,32 +101,50 @@ Insurance companies need reliable cost prediction models to improve pricing stra
   demographic and health-related factors.
     
   Example metrics:
-        r2_score : 0.92
-        MSE: 3149705.2
-        RMSE : 1774.7
-        MAE : 1270.5
+       
+  r2_score : 0.92
+        
+  MSE: 3149705.2
+        
+  RMSE : 1774.7
+        
+  MAE : 1270.5
 
 
 **Key Insights**
     
   Smoking Significantly Increases Insurance Costs
+  
   Smokers incur substantially higher medical charges compared to non-smokers.
+  
   Age Positively Correlates With Charges
+  
   Older individuals generally have higher insurance expenses.
+  
   BMI Influences Healthcare Costs 
+  
   Higher BMI values often contribute to increased medical costs.
+  
   Dependents Have Moderate Impact
+  
   The number of children affects insurance charges but less significantly than smoking status and age.
 
 **Feature Importance**
 
   Random Forest provides feature importance scores, helping identify the most influential variables.
+  
    Typical ranking:
+   
     Smoker
+    
     Age
+    
     BMI
+    
     Children
+    
     Region
+    
     Sex
 
 **Model Deployment**
