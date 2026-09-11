@@ -5,13 +5,13 @@ Medical Insurance Cost Prediction using Random Forest Regressor
 
 
 
-Project Overview
+**Project Overview**
 
 This project predicts medical insurance charges using a Random Forest Regressor. The model uses demographic and health-related attributes such as age, BMI, smoking status, region, gender, and number of dependents to estimate expected insurance costs.
   
 The goal is to support insurance providers, healthcare analysts, and customers by delivering a data-driven estimate of medical expenses and highlighting the factors that most influence cost variation.
 
-Business Problem
+**Business Problem**
 
 Insurance companies need reliable cost prediction models to improve pricing strategies, assess customer risk profiles, reduce manual underwriting effort, and provide more personalized premium estimates.
   
@@ -133,19 +133,19 @@ The dataset contains demographic and health-related information of insured indiv
 
   Random Forest provides feature importance scores, helping identify the most influential variables.
   
-   Typical ranking:
-   
-    Smoker
+  Typical ranking:
     
-    Age
+  Smoker
+  
+  Age
+  
+  BMI 
     
-    BMI
-    
-    Children
-    
-    Region
-    
-    Sex
+  Children
+  
+  Region
+  
+  Sex
 
 **Model Deployment**
 
