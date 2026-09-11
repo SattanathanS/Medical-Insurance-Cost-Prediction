@@ -24,7 +24,7 @@ Insurance companies need reliable cost prediction models to improve pricing stra
 
 **Dataset**
 
-  The dataset contains demographic and health-related information of insured individuals.
+The dataset contains demographic and health-related information of insured individuals.
 
 **Features**
 
